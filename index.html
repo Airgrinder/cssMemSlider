@@ -5,36 +5,41 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="style.css" rel="stylesheet">
     <title>cssMemSlider</title>
 </head>
 <body>
 <section>
+    <input checked class="checkbox" id="input-1" name="1" type="radio" />
+    <input class="checkbox" id="input-2" name="1" type="radio" />
+    <input class="checkbox" id="input-3" name="1" type="radio" />
+    <input class="checkbox" id="input-4" name="1" type="radio" />
     <div class="wrapper">
-        <div class="images">
-            <img alt="mem" src="images/meme1.jpg" />
-            <img alt="mem" src="images/meme2.jpg" />
-            <img alt="mem" src="images/meme3.jpg" />
-            <img alt="mem" src="images/meme4.png" />
+        <div class="items">
+            <img alt="mem" class="image" src="images/meme1.jpg" />
+        </div>
+        <div class="items">
+            <img alt="mem" class="image" src="images/meme2.jpg" />
+        </div>
+        <div class="items">
+            <img alt="mem" class="image" src="images/meme3.jpg" />
+        </div>
+        <div class="items">
+            <img alt="mem" class="image" src="images/meme4.png" />
+        </div>
+    </div>
+    <div class="content">
+        <div class="descriptions">
+            <div class="description" id="item-1">Just programmer</div>
+            <div class="description" id="item-2">when you play Escape from Tarkov</div>
+            <div class="description" id="item-3">Friends invite me to the gym</div>
+            <div class="description" id="item-4">It's time to stop watch memes</div>
         </div>
         <div class="buttons">
-            <button class="switcher"></button>
-            <button class="switcher"></button>
-            <button class="switcher"></button>
-            <button class="switcher"></button>
-        </div>
-        <div class="descriptions">
-            <span class="description">
-                Just programmer
-            </span>
-            <span class="description">
-               when you play Escape from Tarkov
-            </span>
-            <span class="description">
-                Friends invite me to the gym
-            </span>
-            <span class="description">
-                Time to stop watch memes
-            </span>
+            <label for="input-1"></label>
+            <label for="input-2"></label>
+            <label for="input-3"></label>
+            <label for="input-4"></label>
         </div>
     </div>
 </section>
